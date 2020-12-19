@@ -4,6 +4,8 @@
 
 A deep review of designing *RESTful APIS*, simple and straight to the point.
 
+![](src/assets/of-conceptual-operator.png)
+
 1 ) - Basic _curl_ through *Github API*
 
 ```
