@@ -4,6 +4,18 @@
 
 A deep review of designing *RESTful APIS*, simple and straight to the point.
 
+1 ) - Basic _curl_ through *Github API*
+
+```
+curl https://api.github.com
+```
+
+Should return:
+
+```
+
+```
+
 
 ## Release History
 
