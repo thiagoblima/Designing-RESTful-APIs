@@ -116,6 +116,14 @@ Should return:
 }
 ```
 
+> Ion Media Type
+
+### application/ion+json
+
+or
+
+### application/ion+json;v=2
+
 For further information and specification of _HAL_
 
 > http://stateless.co/hal_specification.html
