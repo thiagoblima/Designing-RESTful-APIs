@@ -1,0 +1,15 @@
+{
+    "eform": {
+        "href": "https://example.io/users/form"
+    },
+    "value": [
+        {
+            "firstName": "Bob",
+            "lastName": "Smith"
+        },
+        {
+            "firstName": "Jane",
+            "lastName": "Doe"
+        }
+    ]
+}
