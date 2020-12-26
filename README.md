@@ -116,6 +116,9 @@ Should return:
 }
 ```
 
+For further information and specification of _HAL_
+
+> http://stateless.co/hal_specification.html
 
 
 ## Release History
