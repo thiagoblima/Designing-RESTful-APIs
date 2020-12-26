@@ -1,0 +1,6 @@
+{
+    "name": "Joe",
+    "employer": {
+        "href": "https://example.io/corporations/acme"
+    }
+}
