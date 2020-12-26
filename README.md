@@ -128,6 +128,37 @@ or
 
 ### application/ion+json;v=2
 
+Example of Paginated Collection Resource:
+
+```
+{
+  "self": { "href": "https://example.io/users", "rel": ["collection"] },
+  "desc": "Showing 25 of 218 users.  Use the 'next' link for the next page.",
+  "offset": 0,
+  "limit": 25,
+  "size": 218,
+  "first": { "href": "https://example.io/users", "rel": ["collection"] },
+  "previous": null,
+  "next": { "href": "https://example.io/users?offset=25", "rel": ["collection"] },
+  "last": { "href": "https://example.io/users?offset=200", "rel": ["collection"] },
+  "value": [
+    {
+      "self": { "href": "https://example.io/users/1" },
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "birthDate": "1977-04-18"
+    },
+    //... items 2-24 omitted for brevity
+    {
+      "self": { "href": "https://example.io/users/25" },
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "birthDate": "1980-01-23"
+    }
+  ]
+}
+```
+
 ## Release History
 
 * 0.2.1
