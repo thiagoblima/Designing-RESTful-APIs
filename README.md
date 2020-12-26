@@ -142,7 +142,7 @@ Thiago Lima
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/thiagoblima/Designing-RESTful-APIs/blob/main/LICENSE.md](https://github.com/thiagoblima/Designing-RESTful-APIs/blob/main/LICENSE)
+[https://github.com/thiagoblima/Designing-RESTful-APIs/blob/main/LICENSE](https://github.com/thiagoblima/Designing-RESTful-APIs/blob/main/LICENSE)
 
 ## Contributing
 
