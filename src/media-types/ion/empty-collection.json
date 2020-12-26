@@ -1,0 +1,9 @@
+{
+    "self": {
+        "href": "https://example.io/users",
+        "rel": [
+            "collection"
+        ]
+    },
+    "value": []
+}
