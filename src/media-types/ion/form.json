@@ -1,0 +1,105 @@
+{
+    "href": "https://example.io/users",
+    "rel": [
+        "create-form"
+    ],
+    "method": "POST",
+    "value": [
+        {
+            "name": "username"
+        },
+        {
+            "name": "password",
+            "secret": true
+        },
+        {
+            "name": "favoriteColor",
+            "label": "Favorite Color",
+            "options": {
+                "value": [
+                    {
+                        "label": "Red",
+                        "value": "red"
+                    },
+                    {
+                        "label": "Blue",
+                        "value": "blue"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "visitedContinents",
+            "type": "set",
+            "minsize": 1,
+            "maxsize": 7,
+            "options": {
+                "value": [
+                    {
+                        "label": "Africa",
+                        "value": "af"
+                    },
+                    {
+                        "label": "North America",
+                        "value": "na"
+                    },
+                    {
+                        "label": "South America",
+                        "value": "sa"
+                    },
+                    {
+                        "label": "Europe",
+                        "value": "eu"
+                    },
+                    {
+                        "label": "Asia",
+                        "value": "as"
+                    },
+                    {
+                        "label": "Oceania",
+                        "value": "oc"
+                    },
+                    {
+                        "label": "Antarctica",
+                        "value": "an"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "favoriteContinent",
+            "options": {
+                "value": [
+                    {
+                        "label": "Africa",
+                        "value": "af"
+                    },
+                    {
+                        "label": "North America",
+                        "value": "na"
+                    },
+                    {
+                        "label": "South America",
+                        "value": "sa"
+                    },
+                    {
+                        "label": "Europe",
+                        "value": "eu"
+                    },
+                    {
+                        "label": "Asia",
+                        "value": "as"
+                    },
+                    {
+                        "label": "Oceania",
+                        "value": "oc"
+                    },
+                    {
+                        "label": "Antarctica",
+                        "value": "an"
+                    }
+                ]
+            }
+        }
+    ]
+}
